@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <title>Register</title>
+</head>
+<body>
+
+    <header class="cabecera">
+        <h1>Refugio 4 Patitas</h1>
+        <nav class="nav-cabecera">
+            <ul class="menu lista-1">
+                <li><a href="./../index.html">Inicio</a></li>
+                <li><a href="">Adopta</a></li>
+                <li><a href="">Sobre Nosotros</a></li>
+                <li><a href="">Contactos</a></li>
+            </ul>
+            <ul class="menu lista-2">
+                <li><a href="./login.html">Iniciar Sesion</a></li>
+                <li><a href="./register.html">Registrarse</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <h2>Registrate</h2>
+
+        <form action="" class="formulario-register">
+            <div>
+                <label for="">Nombres</label><br>
+                <input type="text" maxlength="40" required>
+            </div>
+            <br>
+            <div>
+                <label for="">Apellidos</label><br>
+                <input type="text" maxlength="40" required>
+            </div>
+            <br>
+            <div>
+                <label for="">Correo</label><br>
+                <input type="text" maxlength="30" placeholder="ejemplo@mail.com" required>
+            </div>
+            <br>
+            <div>
+                <label for="">Fecha de Nacimiento:</label>
+                <input type="date">
+            </div>
+            <br>
+
+            <div>
+                <label for="">Genero</label>
+                <select name="" id="">
+                    <option selected>Selecione genero</option>
+                    <option value="0">Hombre</option>
+                    <option value="1">Mujer</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <label for="">Contraseña</label><br>
+                <input type="password">
+            </div>
+            <br>
+            <div>
+                <label for="">Repita Contraseña</label><br>
+                <input type="password">
+            </div>
+            <br>
+            <div>
+                <button type="submit">Registrarse</button>
+            </div>
+        </form>
+</body>
+</html>
